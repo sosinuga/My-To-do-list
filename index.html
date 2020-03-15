@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My To do list</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>My To Do list</title>
 </head>
+
 <body>
-    
+  <header>
+    <div id="myDIV" class="header">
+      <h2>My To Do List - Make it happen!</h2>
+
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 purple-rect">
+          <input type="text" id="myInput" placeholder="What needs doing?">
+          <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 purple-rect">
+          <ul id="myUL">
+            <li>Grocery shopping</liclass="checked">
+            <li>Pay bills</li>
+            <li>Finish up homework</li>
+            <li>Buy train tickets</li>
+            <li>Return books to the library</li>
+            <li>Do the laundry</li>
+            <li>Call dad</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
 </body>
-</html>
+
+
+
+</main>
